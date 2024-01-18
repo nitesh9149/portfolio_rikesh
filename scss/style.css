@@ -163,6 +163,11 @@ body {
   height: 6.5rem;
   background-color: #3f3f50;
 }
+.my-stats ul.stats-right li .li-box .img-fluid {
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
 .my-stats ul.stats-right li .li-detail {
   display: flex;
   align-items: center;
